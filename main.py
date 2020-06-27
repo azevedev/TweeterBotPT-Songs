@@ -107,7 +107,7 @@ songs = [x.strip() for x in songs]
 canSleep = False
 while True:
     run()
-    #Making the bot sleep for 30 min
+    #Making the bot sleep for 1 hour
     if canSleep:
         canSleep = False
-        time.sleep(1800)
+        time.sleep(3600)
